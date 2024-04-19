@@ -5,8 +5,12 @@ import org.springframework.web.util.WebUtils;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-/*
- * Aloke Das
+/**
+ * Created by STS
+ * Project : sso-jwt
+ * @author aloke d.
+ * @version 1.0
+ * Email: alokebd@gmail.com
  */
 public class CookieUtil {
     public static void create(HttpServletResponse httpServletResponse, String name, String value, Boolean secure, Integer maxAge, String domain) {

@@ -11,9 +11,12 @@ import com.ait.ssojwtauth.utills.JwtUtil;
 import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.Map;
-
-/*
- * Aloke Das
+/**
+ * Created by STS
+ * Project : sso-jwt
+ * @author aloke d.
+ * @version 1.0
+ * Email: alokebd@gmail.com
  */
 @Controller
 public class LoginController {

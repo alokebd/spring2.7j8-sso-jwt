@@ -6,7 +6,13 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;
-
+/**
+ * Created by STS
+ * Project : sso-jwt
+ * @author aloke d.
+ * @version 1.0
+ * Email: alokebd@gmail.com
+ */
 @SpringBootApplication
 public class SpringBootSsoJwtApplication extends SpringBootServletInitializer {
 		

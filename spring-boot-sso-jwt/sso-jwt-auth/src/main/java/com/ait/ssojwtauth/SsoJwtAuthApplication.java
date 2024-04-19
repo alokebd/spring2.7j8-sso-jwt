@@ -5,8 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-/*
- * Aloke Das
+/**
+ * Created by STS
+ * Project : sso-jwt
+ * @author aloke d.
+ * @version 1.0
+ * Email: alokebd@gmail.com
  */
 @SpringBootApplication
 public class SsoJwtAuthApplication extends SpringBootServletInitializer {

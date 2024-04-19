@@ -7,7 +7,13 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+/**
+ * Created by STS
+ * Project : sso-jwt
+ * @author aloke d.
+ * @version 1.0
+ * Email: alokebd@gmail.com
+ */
 @Configuration
 public class ResourceFilterConfig {
 	//@Value("${services.auth}") // NOTE -- as it might be caching issue and this value is reading by Spring container. 

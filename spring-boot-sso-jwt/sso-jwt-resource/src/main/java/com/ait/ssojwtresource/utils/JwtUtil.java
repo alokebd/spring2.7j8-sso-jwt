@@ -6,6 +6,13 @@ import java.util.Date;
 */
 import io.jsonwebtoken.Jwts;
 import javax.servlet.http.HttpServletRequest;
+/**
+ * Created by STS
+ * Project : sso-jwt
+ * @author aloke d.
+ * @version 1.0
+ * Email: alokebd@gmail.com
+ */
 public class JwtUtil {
 	/*
     public static String generateToken(String signingKey, String subject) {

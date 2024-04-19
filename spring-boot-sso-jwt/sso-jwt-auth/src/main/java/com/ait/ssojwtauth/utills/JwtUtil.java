@@ -8,8 +8,12 @@ import io.jsonwebtoken.SignatureAlgorithm;
 
 import java.util.Date;
 
-/*
- * Aloke Das
+/**
+ * Created by STS
+ * Project : sso-jwt
+ * @author aloke d.
+ * @version 1.0
+ * Email: alokebd@gmail.com
  */
 public class JwtUtil {
     public static String generateToken(String signingKey, String subject) {

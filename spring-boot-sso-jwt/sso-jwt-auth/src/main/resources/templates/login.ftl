@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Authentication Service</title>
+   <title>JWT Authentication Service</title>
 </head>
 <body>
 <form method="POST" action="/login?redirect=${RequestParameters.redirect!}">

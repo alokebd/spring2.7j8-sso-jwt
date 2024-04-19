@@ -11,7 +11,13 @@ import java.io.IOException;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
+/**
+ * Created by STS
+ * Project : sso-jwt
+ * @author aloke d.
+ * @version 1.0
+ * Email: alokebd@gmail.com
+ */
 @Component
 //@Configuration
 public class JwtFilter extends OncePerRequestFilter {
